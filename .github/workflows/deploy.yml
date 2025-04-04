@@ -18,4 +18,4 @@ jobs:
           script: |
             cd /root/Boter
             git pull
-            systemctl restart Boter
+            systemctl restart boter
