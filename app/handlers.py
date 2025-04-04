@@ -11,7 +11,7 @@ DB_PATH = "contractors.db"  # Путь к SQLite базе данных
 main_menu = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Сделать заказ")],
-        [KeyboardButton(text="Узнать наличие товара")]
+        [KeyboardButton(text="Узнать о наличии товара")]
     ],
     resize_keyboard=True
 )
