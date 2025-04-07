@@ -78,7 +78,7 @@ async def go_back(message: Message):
 
 @router.message(F.text == "ДА")
 async def confirm_data(message: Message):
-    await message.answer("Отлично!!!", reply_markup=main_menu)
+    await message.answer("Отлично!!", reply_markup=main_menu)
     user_states[message.from_user.id] = None
 
 
